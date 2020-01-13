@@ -25,7 +25,7 @@
 -------------------------------------------------------------------*/
 
 body {
-	--def: #ffffff; 	
+	--def: #ffffff;
 	--inv: #009bb7;
     color: #999999;
     font-size: 14px;
@@ -347,15 +347,15 @@ a img.aligncenter {
 
 /**new-btn**/
 
-.btn-new {		
-	position: relative;	
+.btn-new {
+	position: relative;
 	padding: 11px 25px;
 	font-size: 18px;
 	border: none;
 	color: var(--inv);
 	letter-spacing: 0px;
 	text-transform: uppercase;
-	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);	
+	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);
 	cursor: pointer;
 	background: #faad3b;
 	color: #ffffff;
@@ -368,7 +368,7 @@ a img.aligncenter {
 
 .btn-new:before, .btn-new:after {
 	content: '';
-	position: absolute;	
+	position: absolute;
 	transition: inherit;
 	z-index: -1;
 }
@@ -487,9 +487,9 @@ a img.aligncenter {
   opacity: 1;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-xclip 
+xclip
 
 -------------------------------- */
 .cd-headline.clip span {
@@ -662,7 +662,7 @@ xclip
 	z-index: 2;
 }
 .right-box-pro::before {
-    
+
 }
 
 .fat-ab{}
@@ -1530,7 +1530,7 @@ hr.invis1 {
 .filter-button-group button.active{
 	background: #faad3b;
 	color: #fff;
-	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);	
+	box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
 
 .filter-button-group button{
@@ -2755,7 +2755,7 @@ select.mobile-device {
     margin-left: auto;
   border: 1px solid #4e555b;
 }
-th, td{
+th{
     text-align:center;
     padding:3px;
 
@@ -2861,4 +2861,274 @@ th, td{
 .btn-light:focus {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
+}
+.kkk th{
+    border-spacing: 100px 200px;
+}
+th + td{
+    border-spacing: 200pxf;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    background: red;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    --border-radius: 25px;
+    border-radius: 25px;
+}
+.khung1{
+    width: 652px;
+    height: 210px;
+    display: flex;
+}
+.khung1trai{
+    width: 300px;
+    height: 290px;
+    margin-right: 50px;
+}
+.khung1phai{
+    width: 300px;
+}
+.hinhto{
+    width:100%;
+}
+.khung2trai{
+    display: flex;
+}
+.hinhnho{
+    width: 65px;
+    height: 65px;
+    margin-right: 14px;
+}
+.khung2phai{
+    width: 400px;
+}
+.khung2phai h4{
+    font-size: 14px;
+    color: #bd2130;
+}
+.dathang{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: #bd2130;
+    border: 5px;
+    border-radius: 8px;
+    padding: 14px 28px;
+transition-duration: 0.4px;
+    border: 2px solid #bd2130;
+}
+.dathang:hover{
+    background-color: white;
+    color:    #bd2130;
+;
+}
+.small_news_block{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding-top: 10px;
+}
+.small_news_block .left{
+    width: 60px;
+}
+.small_news_block .right{
+    width: 220px;
+}
+img{width: 100%}
+.small_news_block .right a.a1{
+    text-decoration: none;
+    display: block;
+    color: rgba(26,23,32,0.95);
+}
+.small_news_block .right span.minutes{
+    text-decoration: none;
+    color: gray;
+    font-size: 11px;
+}
+.small_news_block .right a.a2{
+    text-decoration: none;
+    color: gray;
+    font-size: 11px;
+}
+.small_news_block .right a a3{
+    text-decoration: none;
+    color: gray;
+    font-size: 11px;
+    display: inline-block;
+    padding: 10px;
+    border-top: white solid 10px    ;
+}
+.cottrai{
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 700px;
+    margin: 50px;
+}
+}
+a.anhvattd {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+a.anhvattd:hover{
+    color: #80bdff;
+    width: 90%;
+    transition: scale  ease-out;
+
+    }
+.tren a h3:hover{
+    color: #009bb7;
+}
+a.anhvattd h3{
+    margin: 0;
+    padding: 0;
+}
+a.nguon, a.lq{
+    text-decoration: none;
+    padding-right: 10px;
+}
+span .gio{
+    padding-right: 10px;
+}
+.tong{
+    display: flex;
+}
+ul.menungang{
+    display: flex;
+    list-style: none;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu{
+    background-color: #80bdff;
+    height: 30px;
+    width: 100%;
+}
+ul.menungang a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 6px 6px 6px 6px;
+    display: block;
+    transition: 0.4s;
+}
+ul.menungang a:hover{
+    background-color: #009bb7;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+.download{
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow:#4e555b;
+    background-color: #28a745;
+    color: white;
+    padding: 3px 10px;
+    transition: 0.2s;
+
+}
+.download:hover{
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+
+
+}
+.quanlinhansu{
+    display: flex;
+    width: 1000px;
+}
+.quanlinhansu .qlns3 {
+width: 50%}
+.quanlinhansu img{
+    width: 30%;
+}
+.quanlinhansu .img a{
+    font-size:15px   ;
+    transition: 0.2s;
+    color: white;
+}
+}
+.LAB1{
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+}
+.lab1phai{
+    width: 50%;
+}
+.lab1trai{
+    width: 50%;
+}
+.chudownload{
+    font-size:15px   ;
+    transition: 0.2s;
+    color: white;
+}
+.downloadall{
+    border-radius: 8px;
+    box-shadow:#4e555b;
+    background-color: white;
+    padding: 8px 18px;
+    border: #bd2130 solid 2px;
+    font-family: "Lato";
+    color: #bd2130;
+}
+.downloadall:hover{
+    border: none;
+    background-color:#bd2130 ;
+    color: white;
+}
+.downloadall .chu{
+    color: #bd2130;
+}
+.tieude3:hover{
+    color: #009bb7;
+}
+.downCV{
+    padding: 10px;
+    background-color: #c69500;
+    color: white;
+    font-size: 20px;
+}
+.downCV:hover{
+    transition: scale(2);
+    background-color: #cd1713;
+}
+.lab1phai .quanlinhansu .qlns4{
+    width: 50%;
+}
+.to{
+    overflow: hidden;
+    margin: auto;;
+}
+.anhvattd{
+    width: 100%;
+    height: 100%;
+    transition: 1.5s;
+
+}
+.anhvattd:hover{
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+.left{
+    overflow: hidden;
+}
+.left img{
+    width: 100%;
+    height: 100%;
+    transition: 1.5s;
+}
+.left img:hover{
+    transform: scale(1.5);
+    transition: 1.5s;
+}
+.right .a1 span:hover{
+    color: #80bdff;
 }
